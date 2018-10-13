@@ -1,4 +1,7 @@
 # Hose.jl
+
+[![Build Status](https://travis-ci.org/FNj/Hose.jl.svg?branch=master)](https://travis-ci.org/FNj/Hose.jl)
+
 **Hose.jl** is for the situations where pipe is just not flexible enough.
 
 ```julia
