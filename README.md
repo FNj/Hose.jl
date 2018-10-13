@@ -23,3 +23,5 @@ Also behaves like [Lazy.jl](https://github.com/MikeInnes/Lazy.jl) `@>` macro:
 ```
 
 Standard piping works as well. For other examples see `test/runtests.jl`.
+
+Kudos to [Pipe.jl](https://github.com/oxinabox/Pipe.jl) which I basically shamelessly forked for creating this package.
