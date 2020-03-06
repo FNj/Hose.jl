@@ -20,7 +20,7 @@ macroexpand(q) = macroexpand(Main, q)
 @test macroexpand( :(@hose a|>bb[2])) == :((bb[2])(a)) #Should work with RHS that is a array reference
 
 # Test Problem
-@test macroexpand( :(@th a|>bb[2])) == :((bb[2])(a)) #Should work with RHS that is a array reference
+@test macroexpand( :(@hose a|>bb[2])) == :((bb[2])(a)) #Should work with RHS that is a array reference
 
 #Marked locations
 @test macroexpand( :(@hose a |> _)) == :(a) #Identity works
