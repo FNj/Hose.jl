@@ -1,0 +1,13 @@
+name = "Hose"
+uuid = "e9efd1fd-3812-4190-9888-7205510273ab"
+authors = ["František Navrkal", "Lyndon White (Pipe.jl)"]
+version = "0.1.2"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
